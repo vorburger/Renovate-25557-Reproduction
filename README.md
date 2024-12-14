@@ -17,7 +17,9 @@ Renovate should include changes to `MODULE.bazel.lock` in its PRs.
 
 ## How To Reproduce
 
-TODO Pull Request
+Renovate's initial PRs #1 & #2 illustrate the problem - they bump the `.bazelversion` (#1) respectively something in the `MODULE.bazel` (#2) - but they do not include the `MODULE.bazel.lock` file.
+
+To see how those version bumps actually do modify the `MODULE.bazel.lock`, one can:
 
 1. [Install Bazelisk](https://github.com/bazelbuild/bazelisk?tab=readme-ov-file#installation)
 1. Clone this Reproduce
@@ -27,4 +29,4 @@ TODO Pull Request
 
 This will show the `MODULE.bazel.lock` file, which is committed to Git, as being "dirty" (i.e. having been modified by the version bump).
 
-What we are saying with this Reproduction is that Renovate should include that file in its PRs.
+What we are saying with this Reproduction is that Renovate should include that `MODULE.bazel.lock` file in its PRs.
