@@ -1,3 +1,5 @@
+**THIS HAS BEEN SUPERCEDED BY https://github.com/cameron-martin/renovate-module-bazel-lock-repro FORKED TO https://github.com/renovate-reproductions/25557...**
+
 # 25557
 
 Reproduction for [Renovate issue #25557](https://github.com/renovatebot/renovate/issues/25557).
